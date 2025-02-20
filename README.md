@@ -33,3 +33,13 @@ Contributions are welcome! If you have improvements or bug fixes, feel free to s
 
 ## Licence
 This project is licensed under the MIT License.
+
+Developed by [Alexander B]
+
+## 🤝 Contributing
+This project thrives on community contributions. If you'd like to suggest improvements, report issues, or add new features, feel free to open a pull request.  
+If you’d like to support future development, you can do so here: 
+
+☕ [buymeacoffee.com/alexboteroh]
+
+
