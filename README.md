@@ -20,7 +20,7 @@
 
 ## Usage
 Run the script and enter the target website URL: 
-python email_scraper.py
+python3 email_scraper.py
 
 ## Example
 Enter the URL to scrape (e.g., https://example.com): https://targetsite.com
