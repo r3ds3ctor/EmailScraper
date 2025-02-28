@@ -1,7 +1,16 @@
-# EmailScraper
+# EmailScraper v2
 
 ## Description
-**EmailScraper** is a Python tool designed to extract email addresses from a given website efficiently. Unlike traditional scrapers, this tool focuses exclusively on email extraction and does not follow internal links or scrape additional pages.
+EmailScraper v2 is an enhanced Python tool designed to extract email addresses from websites while crawling internal links up to a specified depth. Unlike traditional scrapers, this tool dynamically follows internal links, collects new email addresses in real-time, and stores all extracted data in structured files. The script ensures stability, optimized crawling, and efficient progress tracking.
+
+## Updates & Enhancements
+Recursion Control: The user can specify the depth of crawling using -r X. If not specified, it defaults to 1 level.
+<< Optimized Progress Bar: Now, only one progress bar is shown per recursion level, keeping output clean and readable.
+<< Automatic Data Storage: Emails and links are progressively saved into EmailExtracted.txt and links.txt.
+<< Background Execution & Stability: Crawling runs smoothly, avoiding crashes due to HTML parsing errors.
+<< Graceful Exit with Ctrl+C: If interrupted, the script saves progress before exiting.
+<< Content-Type Validation: Ensures only valid HTML pages are processed, preventing crashes on non-HTML responses.
+
 
 ## Features
 - **Email Extraction**: Detects and extracts email addresses using a robust regular expression.
@@ -26,7 +35,8 @@ python3 email_scraper.py
 Enter the URL to scrape (e.g., https://example.com): https://targetsite.com
 
 ## Output
-<img width="716" alt="Screenshot 2025-02-20 at 8 14 06 AM" src="https://github.com/user-attachments/assets/837d6bcc-461f-48e7-89d9-da8b163075d5" />
+<img width="736" alt="Screenshot 2025-02-28 at 7 34 09 AM" src="https://github.com/user-attachments/assets/08e23eec-d2fc-4d40-a996-880890422163" />
+
 
 ## Contributions
 Contributions are welcome! If you have improvements or bug fixes, feel free to submit a pull request.
